@@ -97876,5 +97876,8 @@
   },
   {
     "senhas": "source /Users/felipebarreto/meu_venv/bin/activate\npython3 /Users/felipebarreto/Documents/json/atualizar_json.py"
+  },
+  {
+    "senhas": "plim@plim.com"
   }
 ]
