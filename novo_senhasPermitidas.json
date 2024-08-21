@@ -97873,5 +97873,8 @@
   },
   {
     "senhas": "ic@ic.com"
+  },
+  {
+    "senhas": "source /Users/felipebarreto/meu_venv/bin/activate\npython3 /Users/felipebarreto/Documents/json/atualizar_json.py"
   }
 ]
