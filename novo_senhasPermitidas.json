@@ -100477,5 +100477,8 @@
   },
   {
     "senhas": "mdgps0204@gmail.com"
+  },
+  {
+    "senhas": "import pytesseract\nfrom PIL import Image\nimport cv2\nimport os\n\n# Configurar o caminho do Tesseract\npytesseract.pytesseract.tesseract_cmd = '/opt/homebrew/bin/tesseract'\n\n# Caminho do v\u00eddeo\nvideo_path = '/Users/felipebarreto/Desktop/Agosto.mov'\n\n# Caminho para salvar o texto extra\u00eddo\noutput_text_file = '/Users/felipebarreto/Documents/texto_extraido.txt'\n\n# Capturar o v\u00eddeo\ncap = cv2.VideoCapture(video_path)\n\nframe_number = 0\nall_text = \"\"\n\nwhile cap.isOpened():\n    ret, frame = cap.read()\n    if not ret:\n        break\n\n    # Salvar cada frame como imagem\n    frame_path = f'/Users/felipebarreto/Documents/frame_{frame_number}.png'\n    cv2.imwrite(frame_path, frame)\n\n    # Abrir a imagem com PIL\n    image = Image.open(frame_path)\n\n    # Extrair o texto da imagem\n    text = pytesseract.image_to_string(image)\n    all_text += f'Texto do frame {frame_number}:\\n{text}\\n\\n'\n\n    # Deletar o arquivo .png gerado\n    os.remove(frame_path)\n\n    # Incrementar o n\u00famero do frame\n    frame_number += 1\n\ncap.release()\n\n# Salvar o texto extra\u00eddo em um arquivo .txt\nwith open(output_text_file, 'w') as file:\n    file.write(all_text)\n\nprint(f'Texto extra\u00eddo salvo em {output_text_file}')"
   }
 ]
