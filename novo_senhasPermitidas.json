@@ -105403,5 +105403,8 @@
   },
   {
     "senhas": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<plist version=\"1.0\">\n  <dict>\n    <key>Label</key>\n    <string>com.prevent.sharingd</string>\n    <key>ProgramArguments</key>\n    <array>\n      <string>/bin/false</string> <!-- Impede a execu\u00e7\u00e3o do processo -->\n    </array>\n    <key>RunAtLoad</key>\n    <true/>\n    <key>KeepAlive</key>\n    <true/>\n  </dict>\n</plist>"
+  },
+  {
+    "senhas": "Ctrl + X"
   }
 ]
