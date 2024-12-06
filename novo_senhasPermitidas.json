@@ -105553,5 +105553,8 @@
   },
   {
     "senhas": "sudo dscacheutil -flushcache"
+  },
+  {
+    "senhas": "Michele Rodrigues da Rosa"
   }
 ]
