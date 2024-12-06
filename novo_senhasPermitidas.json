@@ -105550,5 +105550,8 @@
   },
   {
     "senhas": "127.0.0.1    ec2.amazonaws.com\n127.0.0.1    s3.amazonaws.com\n127.0.0.1    dynamodb.amazonaws.com\n127.0.0.1    sns.amazonaws.com\n127.0.0.1    sqs.amazonaws.com"
+  },
+  {
+    "senhas": "sudo dscacheutil -flushcache"
   }
 ]
