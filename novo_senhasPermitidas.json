@@ -110326,5 +110326,8 @@
   },
   {
     "senhas": "grep -R \"listen 80\" /etc/nginx/"
+  },
+  {
+    "senhas": "Search [Backwards]:"
   }
 ]
