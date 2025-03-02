@@ -110320,5 +110320,8 @@
   },
   {
     "senhas": "coach.mirian@gmail.com"
+  },
+  {
+    "senhas": "apt install certbot python3-certbot-nginx -y"
   }
 ]
