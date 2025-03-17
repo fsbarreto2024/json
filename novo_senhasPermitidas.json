@@ -110869,5 +110869,8 @@
   },
   {
     "senhas": "Eduardo_ferreiralima@hotmail.com"
+  },
+  {
+    "senhas": "nano /home/deploy/freeminds/backend/src/database/wixNumber-migration.js"
   }
 ]
