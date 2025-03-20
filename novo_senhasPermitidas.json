@@ -111118,5 +111118,8 @@
   },
   {
     "senhas": "iaracvidal@gmaill.com"
+  },
+  {
+    "senhas": "# Bloquear conex\u00e3o com IP 45.143.83.33 (porta 443)\nblock drop in quick on en0 proto tcp from any to 45.143.83.33 port 443\nblock drop out quick on en0 proto tcp from any to 45.143.83.33 port 443\n\n# Bloquear conex\u00e3o com IP 104.16.65.50 (Cloudflare - porta 443)\nblock drop in quick on en0 proto tcp from any to 104.16.65.50 port 443\nblock drop out quick on en0 proto tcp from any to 104.16.65.50 port 443"
   }
 ]
