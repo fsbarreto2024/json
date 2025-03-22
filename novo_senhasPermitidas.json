@@ -111247,5 +111247,8 @@
   },
   {
     "senhas": "sandraiza@gmail.com"
+  },
+  {
+    "senhas": "systemctl status nginx"
   }
 ]
